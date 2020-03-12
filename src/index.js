@@ -26,7 +26,7 @@ if (!Array.isArray(array)) {return 0};
 exports.avg = function avg (array) {
   if (!Array.isArray(array)) {return 0};
   if (array.length==0) { return 0 };
-avg=0;
+let avg=0;
   for (i=0;i<array.length;i++){
     array[i] = Number(array[i]);
     avg=avg+array[i]
